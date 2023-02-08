@@ -5,16 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IKEDC</title>
+    <script src="https://use.fontawesome.com/548e1194c5.js"></script>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <div class="img-logo">
+      <img class="img" src="img/phcn.png" alt="" />
+    </div>
     <section class="wrapper">
       <section class="container">
         <h2 class="tittle">Create New Password</h2>
         <div class="inputs">
           <label for="email Address">Email Address*</label>
           <input type="text" placeholder="" required />
-          <p>You are about to reset your password</p>
+          <p class="below-input">
+            You are about to change the password for this account
+          </p>
         </div>
         <div class="inputs">
           <label for="password">Password*</label>
@@ -25,9 +35,31 @@
           <input type="password" placeholder="" required />
         </div>
         <div class="btn-wrapper">
-            <button class="btn-update">update Password</button>
-          </div>
+          <button class="btn-update">update Password</button>
+        </div>
       </section>
     </section>
+
+    <footer class="foot">
+      <ul class="home">
+        <li class="item"><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+      </ul>
+
+      <ul class="home">
+        <p><i class="fa fa-copyright" aria-hidden="true"></i>2022</p>
+        <li class="list-item">Ikeja Electric plc |</li>
+        <li class="list-item">
+          Quick Fact <i class="fa fa-external-link" aria-hidden="true"></i> |
+        </li>
+        <li class="list-item">
+          Registration Guide
+          <i class="fa fa-external-link" aria-hidden="true"></i> |
+        </li>
+        <li class="list-item">
+          Depth Resolution Schedule
+          <i class="fa fa-external-link" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
